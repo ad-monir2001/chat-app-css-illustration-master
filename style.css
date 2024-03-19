@@ -25,3 +25,17 @@
     box-sizing: border-box;
     font-family: "Rubik", sans-serif;
 }
+.hero{
+    position: relative;
+    display: flex;
+}
+.gadget__left{
+    background-image: linear-gradient(var(--Light-Magenta),var(--Light-Violet));
+    width: 500px;
+    height: 80vh;
+    border-radius: 0 0 500px 500px;
+    position: relative;
+    right: 40px;
+    z-index: -1;
+}
+
