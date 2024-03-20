@@ -124,11 +124,35 @@
 
 .left__texts{
     background-color: hsl(294, 100%, 94%);
-    border-radius: 20px;
+    border-radius: 20px 20px 20px 15px;
     color: var(--Moderate-Violet-chat-on-the-left);
     width: 250px;
     padding: 1rem;
     position: relative;
     top: 1rem;
     left: 1rem;
+    margin-bottom: 1rem;
+}
+
+.right__img{
+    text-align: right;
+}
+
+.right__img img{
+    width: 60px;
+    border-radius: 15px;
+    margin: 1rem .5rem;
+}
+
+
+.right__texts{
+    background-color: var(--White);
+    width: 208px;
+    padding: 1rem ;
+    text-align: center;
+    margin-bottom: 1rem;
+    border-radius: 20px 20px 15px 20px;
+    position: relative;
+    left: 143px;
+
 }
