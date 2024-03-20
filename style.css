@@ -57,30 +57,34 @@
 }
 
 .phone__container{
-    width: 400px;
-    border: 15px solid white;
+    width: 360px;
+    border: 11px solid white;
     border-radius: 35px;
     position: relative;
-    right: 50px;
+    right: 96px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.phone__container p{
+    font-size: 15px;
+}
+
 .speaker{
-    width: 150px;
+    width: 180px;
     height: 2rem;
     background-color: var(--White);
-    border-radius: 10px;
+    border-radius: 15px;
     position: absolute;
     top: -12px;
-    left: 125px;
+    left: 80px;
 }
 
 .profile{
     display: flex;
     align-items: center;
     background-image: linear-gradient(90deg,var(--Light-Violet),var(--Light-Magenta));
-    padding: 4rem 2rem 1rem 2rem;
-    border-radius: 35px 35px 8px 8px;
+    padding: 2rem 2rem 1rem 2rem;
+    border-radius: 26px 26px 2px 2px;
 }
 .profile img{
     width: 40px;
@@ -127,10 +131,10 @@
     border-radius: 20px 20px 20px 8px;
     color: var(--Moderate-Violet-chat-on-the-left);
     width: 250px;
-    padding: 1rem;
+    padding: .5rem;
     position: relative;
     top: 1rem;
-    left: 1rem;
+    left: 9px;
     margin-bottom: 1rem;
 }
 
@@ -149,12 +153,12 @@
     background-color: var(--White);
     color: var(--Dark-Grayish-Violet-paragraph);
     width: 208px;
-    padding: 1rem ;
+    padding: .5rem ;
     text-align: center;
-    margin-bottom: 1rem;
-    border-radius: 20px 20px 15px 20px;
+    margin-bottom: 12px;
+    border-radius: 20px 20px 8px 20px;
     position: relative;
-    left: 143px;
+    left: 112px;
 
 }
 
@@ -216,4 +220,44 @@ label p{
     font-size: 1.5rem;
     margin-left: 1.5rem;
     font-weight: 500;
+}
+
+#new-message{
+    width: 90%;
+    border: none;
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 25px;
+    position: relative;
+    left: 1rem;
+}
+#new-message::placeholder{
+    color: var(--Grayish-Blue-placeholder-text);
+}
+.right__angle{
+    background-color: rgb(53, 40, 40);
+    color: white;
+    width: 35px;
+    height: 35px;
+    padding: .6rem;
+    border: none;
+    border-radius: 100%;
+    position: absolute;
+    bottom: 1.4rem;
+    left: 17.5rem;
+    cursor: pointer;
+}
+.hero__text{
+    position: relative;
+    z-index: 9999;
+}
+.hero__text h1{
+    color: var(--Very-Dark-Desaturated-Violet-main-heading);
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.hero__text > p{
+    color: var(--Dark-Grayish-Violet-paragraph);
 }
